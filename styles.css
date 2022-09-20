@@ -1,0 +1,134 @@
+
+body{
+    background-color: black;
+    background-image: '2245139.jpg';
+}
+
+
+.searchbar{
+    margin:20px;
+    /* background-color: grey; */
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    background-color:#800080;
+}
+.dropdown-menu{
+    background-color:rgb(167, 148, 173) ;
+}
+
+#search {
+    background-color: gray;
+    color: antiquewhite;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border-style: none;
+}
+#search::placeholder{
+    color: black;
+}
+
+#login
+{
+    height: 25px;
+    width:140px;
+    color:azure;
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: dimgrey ;
+    /* color: aliceblue; */
+    
+}
+#login::placeholder{
+    color: black;
+}
+
+#login:hover
+{
+    background-color: darkgrey;
+}
+
+.skills
+{
+    color: blue;
+    /* background-color: white; */
+    height: 200px;
+    width: 25%;
+    margin: 80px;
+    padding: 80px;
+    background-color:orange;
+
+    
+}
+
+.dropdown-menu
+{
+    margin: 10px;
+    padding: 10px;
+}
+
+.container{
+    /* background-color: white; */
+    display:flex;
+    flex-direction: row;
+    height: 800px;
+    width: 100vmax;
+}
+
+.skillcolumn{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    /* - */
+    font-family: 'Inconsolata', monospace;
+    font-weight:bold;
+    color:gray;
+    text-align:center;
+    -webkit-font-smoothing: antialiased;
+  }
+  .box-wrap{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:10%;
+  }
+  .box{
+    padding:30px;
+    margin:2%;
+    background:rgb(255, 255, 255);
+    width:30%;
+    border:1px solid #d6d6d6;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    border-radius:10px;
+    transition:.2s all; 
+  }
+  .box1{
+    padding:30px;
+    margin:2%;
+    background-image: image('C:\Users\ASUS\Desktop\web develope\spotify');
+    width:30%;
+    border:1px solid #d6d6d6;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    border-radius:3px;
+    transition:.2s all; 
+  }
+  .box-wrap:hover .box{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+  }
+  .box-wrap:hover .box:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+  }
